@@ -17,10 +17,10 @@ class Personage
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine($"Player's information:");
         Console.WriteLine("-----------------------");
-        Console.WriteLine($"Name: {name}");
-        Console.WriteLine($"Level: {lvl}");
-        Console.WriteLine($"Role: {role}");
-        Console.WriteLine($"Special Power: {specialPower}");
+        Console.WriteLine($"The player's name is {name}.");
+        Console.WriteLine($"They are level {lvl}.");
+        Console.WriteLine($"Their role is a {role}.");
+        Console.WriteLine($"As a {role}, they have a special power called {specialPower}!");
         Console.WriteLine("-----------------------");
         Console.ResetColor();
     }
