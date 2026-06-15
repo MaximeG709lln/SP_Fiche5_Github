@@ -10,6 +10,7 @@ class Personage
     string name = "Gys";
     int lvl = 10;
     string role = "Knight";
+    string specialPower = "Double Slash";
 
     public void ShowInfo()
     {
@@ -19,6 +20,7 @@ class Personage
         Console.WriteLine($"Name: {name}");
         Console.WriteLine($"Level: {lvl}");
         Console.WriteLine($"Role: {role}");
+        Console.WriteLine($"Special Power: {specialPower}");
         Console.WriteLine("-----------------------");
         Console.ResetColor();
     }
